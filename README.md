@@ -19,12 +19,12 @@
 2) I used the PCA algorithm from sklearn (Links to an external site.) to reduce the dimensions of the X DataFrame down to three principal components.
 3) I created the DataFrame named “pcs_df” that includes the following columns: PC 1, PC 2, and PC 3. Use the crypto_df.index as the index for this new DataFrame.
 
-#### Clustering Cryptocurrencies Using K-means
+## Clustering Cryptocurrencies Using K-means
 1) I used the KMeans algorithm from sklearn to cluster the cryptocurrencies using the PCA data, using an elbow curve to find the best value for K.
 2) I ran the K-means algorithm to predict the K clusters for the cryptocurrencies’ data. 
 3) Then I created a new DataFrame named “clustered_df,” that includes the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class, and has 10 rows with the headings: 42, 404, 1337, BTC, ETH, LTC, DASH, XMR, ETC, and ZEC.
 
-#### Visualize Results
+## Visualize Results
 1) I created a 3D scatter plot using Plotly Express to plot the clusters using the clustered_df DataFrame. 
 2) I created a data table with all the current tradable cryptocurrencies. 
 3) I created a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies.
